@@ -1,0 +1,5 @@
+@media screen and (width <= 390px) {
+  .card > h2 {
+    text-align: center;
+  }
+}

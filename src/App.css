@@ -1,0 +1,16 @@
+#root {
+  max-width: 1024px;
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  width: 100%;
+  min-width: 340px;
+  height: 100%;
+  padding: 5rem 2rem 3.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
