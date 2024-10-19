@@ -17,14 +17,14 @@ function App() {
           <Route path='/'>
             <Route index element={<Home />} />
             <Route
-              path='CocktailAlcoholic'
+              path='/CocktailAlcoholic'
               element={<GetCocktailsAlcoholics />}
             />
             <Route
-              path='CocktailNonAlcoholic'
+              path='/CocktailNonAlcoholic'
               element={<GetCocktailsNonAlcoholics />}
             />
-            <Route path='cocktail/:idDrink' element={<GetCocktailDetails />} />
+            <Route path='/cocktail/:idDrink' element={<GetCocktailDetails />} />
             <Route path='*' element={<NotFound />} />
           </Route>
         </Routes>
