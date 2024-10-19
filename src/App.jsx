@@ -14,19 +14,17 @@ function App() {
       <Header />
       <div className='card'>
         <Routes>
-          <Route path='/'>
-            <Route index element={<Home />} />
-            <Route
-              path='/CocktailAlcoholic'
-              element={<GetCocktailsAlcoholics />}
-            />
-            <Route
-              path='/CocktailNonAlcoholic'
-              element={<GetCocktailsNonAlcoholics />}
-            />
-            <Route path='/cocktail/:idDrink' element={<GetCocktailDetails />} />
-            <Route path='*' element={<NotFound />} />
-          </Route>
+          <Route path='/' index element={<Home />} />
+          <Route
+            path='/CocktailAlcoholic'
+            element={<GetCocktailsAlcoholics />}
+          />
+          <Route
+            path='/CocktailNonAlcoholic'
+            element={<GetCocktailsNonAlcoholics />}
+          />
+          <Route path='/cocktail/:idDrink' element={<GetCocktailDetails />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
