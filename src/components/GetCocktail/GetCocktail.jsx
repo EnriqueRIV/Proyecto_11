@@ -9,7 +9,7 @@ const GetCocktail = ({ cocktails }) => {
           <li key={index}>
             <div
               className='cocktailContainer'
-              // onClick={() => window.location.reload()}
+              onClick={() => window.location.reload()}
             >
               <Link to={`/cocktail/${cocktail.idDrink}`}>
                 <img
